@@ -1,0 +1,27 @@
+# Core Framework
+Django==5.0.6
+
+# REST API
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+
+# Authentication (JWT)
+djangorestframework-simplejwt==5.3.1
+
+# Environment Variables (.env support)
+python-dotenv==1.0.1
+
+# Image & File Uploads
+Pillow>=10.3.0
+
+# Database (SQLite by default, but ready for PostgreSQL)
+psycopg2-binary>=2.9.9
+
+# Media and Static Files Management (optional but helpful)
+whitenoise==6.6.0
+
+# Developer Tools (Optional but nice)
+django-debug-toolbar==4.4.2
+
+# Deployment helpers (optional)
+gunicorn==21.2.0
